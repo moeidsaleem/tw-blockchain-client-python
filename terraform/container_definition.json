@@ -1,0 +1,16 @@
+[
+    {
+      "name": "blockchain-client",
+      "image": "${var.docker_image_repo}:latest",
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-region": "${var.aws_region}",
+          "awslogs-group": "blockchain-client",
+          "awslogs-stream-prefix": "blockchain-client"
+        }
+      }
+    }
+  ]
+  
