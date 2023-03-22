@@ -1,6 +1,14 @@
 #  Blockchain Client
 This repository contains a simple Python-based blockchain client for the Blockchain network. It provides an easy-to-use command-line interface to interact with the Blockchain network using JSON-RPC API.
 
+
+
+## Overview 
+
+The python source code is located in the `/app` folder. Also setup the logs for each response. The `Dockerfile` mainly used to setup image.
+The code then moves to the terraform configuration where you will need to deploy the infrastructure and alongside by setting up the `container_definition.json`, you can simply deploy this application
+on ECS Fargate. 
+
 ## Requirements
 Python 3.9 or later
 Docker
