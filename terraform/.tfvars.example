@@ -7,7 +7,7 @@ private_subnet_cidr_blocks = ["10.0.3.0/24", "10.0.4.0/24"]
 availability_zones = ["us-east-1a", "us-east-1b"]
 cidr_blocks = ["10.0.5.0/24", "10.0.6.0/24"]
 vpc_id = "vpc-12345"
-docker_image_repo = "tw-blockchain-client-repo"
+docker_image_repo = "blockchain_client"
 aws_region = "us-west-1"
-service_name = "tw-blockchain-client"
+service_name = "tw-blockchain-repo"
 
